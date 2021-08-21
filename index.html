@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <title>Starbucks</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="circle"></div>
+      <nav>
+        <div class="logo">
+          <a href="#"><img src="./images/starbucks_logo.jpg" alt="" /></a>
+        </div>
+        <div class="toggle" onclick="toggleMenu()"></div>
+        <ul class="navbar">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="contents">
+        <div class="content">
+          <h1>It's not just a coffee</h1>
+          <h1>
+            It's
+            <span
+              class="span"
+              onclick="clicking('./images/img1.png');circlecolor('#019401');"
+              onclick="clicking('./images/img2.png');circlecolor('#f6dfe4')"
+              onclick="clicking('./images/img2.png');circlecolor('#be2c96')"
+              >Starbucks</span
+            >
+          </h1>
+          <p>
+            Starbucks Corporation is an American multinational chain of
+            coffeehouses and roastery reserves headquartered in Seattle,
+            Washington. As the world's largest coffeehouse chain, Starbucks is
+            seen to be the main representation of the United States' second wave
+            of coffee culture.As of September 2020, the company had 32,660
+            stores in 83 countries, including 16,637 company operated stores and
+            16,023 licensed stores.Of these 32,660 stores, 18,354 were in the
+            United States, Canada, and Latin America.
+          </p>
+          <a
+            class="btn"
+            onclick="clicking('./images/img1.png');circlecolor('#019401');"
+            onclick="clicking('./images/img2.png');circlecolor('#f6dfe4')"
+            onclick="clicking('./images/img2.png');circlecolor('#be2c96')"
+            href="#"
+            >Learn more</a
+          >
+        </div>
+        <div class="img-box">
+          <img class="clicking" src="./images/img1.png" alt="" />
+        </div>
+      </div>
+      <ul class="drinks">
+        <li>
+          <img
+            onclick="clicking('./images/img1.png');circlecolor('#019401')"
+            src="./images/thumb1.png"
+          />
+        </li>
+        <li>
+          <img
+            onclick="clicking('./images/img2.png');circlecolor('#f6dfe4')"
+            src="./images/thumb2.png"
+          />
+        </li>
+        <li>
+          <img
+            onclick="clicking('./images/img3.png');circlecolor('#be2c96')"
+            src="./images/thumb3.png"
+          />
+        </li>
+      </ul>
+      <ul class="icons">
+        <li class="icon">
+          <a href="http://facebook.com"
+            ><img src="images/facebook.png" alt=""
+          /></a>
+        </li>
+        <li class="icon">
+          <a href="http://instagram.com"
+            ><img src="images/instagram.png" alt=""
+          /></a>
+        </li>
+        <li class="icon">
+          <a href="http://twitter.com"
+            ><img src="images/twitter.png" alt=""
+          /></a>
+        </li>
+      </ul>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
